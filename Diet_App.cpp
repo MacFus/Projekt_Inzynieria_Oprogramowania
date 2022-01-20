@@ -29,9 +29,9 @@ int main()
                 userWithAccount->updateUzytkownik(str);
                 userWithAccount->przekierowanieUzytkownikaZKontem();
                 delete existingUser;
-                delete userWithAccount;
-                break;
+                delete userWithAccount;        
             }
+            break;
         }
         case 3:
         {
